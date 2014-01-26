@@ -1,4 +1,0 @@
-%\VignetteIndexEntry{read_me_first}
-\documentclass{article}
-\begin{document}
-\end{document}

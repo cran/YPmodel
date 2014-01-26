@@ -9,6 +9,9 @@ function(data=c(), ...)
 	  data <- read.table(data)
 	}
 
+	(o <- order(data$V1,data$V2,data$V3))
+	data <- data[o,]
+
 	X <- as.numeric(data[,1])
 	Delta <- as.numeric(data[,2])
 	Z <- as.numeric(data[,3])

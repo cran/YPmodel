@@ -20,7 +20,7 @@ The main function to fit the short-term and long-term hazard ration model.
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{\dots}{ For S4 method only. }
-  \item{data}{ A properly qualified filename where text data is to be saved, or a dataframe of input data set with three vectors: the event / censoring time (unite: year), the censoring indicator, and the group membership indicator. See the structure of sample data set \code{\link{gastric}} for instance. } 
+  \item{data}{ A properly qualified filename where text data is to be saved, or a dataframe of input data set with three vectors: the event / censoring time (unite: year), the censoring indicator, and the group membership indicator. See the structure of sample data set \code{\link{gastric}} for instance.} 
   \item{startPoint}{ Start point for estimating \eqn{\hat{\beta}}. }
   \item{nm}{The upper boundary for the absolute value of \eqn{\hat{\beta}}, and the default value is \eqn{\log(100)}.  }
   \item{maxIter1}{ Parameter of out-cycle iteration numbers. }
