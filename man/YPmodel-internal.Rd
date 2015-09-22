@@ -29,4 +29,3 @@ Internal functions for the YPmodel package.
 \author{Junlong Sun and Song Yang}
 \seealso{\code{\link{YPmodel}}}
 \keyword{YPmodel}
-
