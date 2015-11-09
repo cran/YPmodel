@@ -9,7 +9,7 @@ function(x, Internal=c(), ...)
 	Estimate <- x$Estimate
 
 	LackFitTest <- x
-	
+
 	if(is.null(Data)){
 		stop(paste(fun.errorMessage('DataSet')))
 	}
@@ -25,8 +25,8 @@ function(x, Internal=c(), ...)
 	lineCount2 <- LackFitTest$lineCount2
 	obs2 <- LackFitTest$obs2
 
-	dev.new()
-	plot(X[1:kk]*365,wtildCount2[,1],"l",lty = "dotted",col="red",xlab="Days", ylab="p-value",xlim=c(1, max(X*365)),ylim=c(min(obs2,wtildCount2), max(obs2,wtildCount2)))
+	#dev.new()
+	plot(X[1:kk]*365,wtildCount2[,1],"l",lty = "dotted",col="red",xlab="Days", ylab=" ",xlim=c(1, max(X*365)),ylim=c(min(obs2,wtildCount2), max(obs2,wtildCount2)))
 	for(i in 2:lineCount2){
 	    lines(X[1:kk]*365,wtildCount2[,i],"l",lty = "dotted",col="red")
 	}
