@@ -1,4 +1,4 @@
-bdffb3bdb6c6026d500707c2dd9a679e *DESCRIPTION
+f34969fee225330d151261ed67847b7f *DESCRIPTION
 1df456e75e0b2ba32fdc68c8edcf7084 *NAMESPACE
 ff701dc8f6a03714391001a772316daf *R/YPmodel.IntervalBands.R
 c6fb48ebc40726e4f60bccbb455d377d *R/YPmodel.R
@@ -11,11 +11,11 @@ c713e70f7d546a6dd262fa22c4c75ec0 *R/YPmodel.setParameter.R
 95aac871ad2a03237d8cfec6756e9569 *R/YPmodel.setRandom.R
 adfa2e907568b81a0a3d6a38218cc017 *R/fun.Rjudge.R
 15b26063db641264d240e38b6e117ae7 *R/fun.YPmodelOriginal.R
-0dff9875cc402792a55b11e9b05dde80 *R/fun.adlgrk.R
+9c8a8b3fdb1085a2a4400c95afb5b95b *R/fun.adlgrk.R
 66eafdac6dca802025cb34f70d5be575 *R/fun.classCheck.R
 3b51a33a1edbacde3c0661a6dddb937d *R/fun.cumsum.R
 5e81d5b04a12b93196533ce327379a8b *R/fun.errorMessage.R
-e637fe74e42f7fcbbc16e7f3173f4a58 *R/fun.flipud.R
+d441fc85b16497516adee863e7758a6c *R/fun.flipud.R
 b5edc1d24ee26a4b1a4e46c70528d234 *R/fun.generateParameters.R
 a0db09ba0ac7250a51eddc99536e094a *R/fun.hazardRationEstimation.R
 4c7865ec712cb8f23aeb417e8db30cf2 *R/fun.hcvxitr1.R
@@ -41,7 +41,7 @@ db2ce30ac801e1a4317d0a062dab4fad *R/summary.YPmodel.R
 b852c75676a0db26af5d0a2c70b1d8dd *R/summary.YPmodel.estimate.R
 5cd5ffd916042cb8fc93e094f770c713 *R/summary.YPmodel.lackfittest.R
 be4220a380a80f47e4978aafb0191349 *R/summary.YPmodel.overall.R
-8ccbe7c8a0c5446f4c25eca54beb632f *data/gastric.rda
+89913ebfd2fbb57406e7829f1ead88b2 *data/gastric.rda
 9bec8cf30362596357b68f64a226b994 *inst/CITATION
 f83e1ad04e53233b4e38f75022490b3c *inst/doc/read_me_first.pdf
 ced53ccf22f05e66d4e42d3f1818456f *man/YPmodel-internal.Rd
